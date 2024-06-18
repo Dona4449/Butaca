@@ -1,0 +1,32 @@
+{
+  "name": "movieium-server",
+  "version": "1.0.0",
+  "description": "Online Movie Ticket Booking System",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev-both": "concurrently \"nodemon index.js\" \"cd ../client; npm run dev\""
+  },
+  "author": "Vishwas Tyagi",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "razorpay": "^2.8.1"
+  }
+}
