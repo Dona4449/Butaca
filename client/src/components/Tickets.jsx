@@ -7,11 +7,12 @@ const Tickets = (props) => {
 
   const fetchTickets = async () => {
     const response = await fetch(`${props.host}/api/ticket/getall`, {
-      method: "GET",
+      method: "POST",
       headers: {
-        "Content-type": "application/json; charset=UTF-8",
-        "auth-token": localStorage.getItem("auth-token--movieium"),
+        "Content-type": "application/json",
+        // "auth-token": localStorage.getItem("auth-token--movieium"),
       },
+      body: JSON.stringify({ user_id: props.user.email }),
     });
     const jsonResponse = await response.json();
 

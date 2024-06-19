@@ -9,7 +9,7 @@ const Navbar = (props) => {
       <div id="logo-container">
         <Link to="/">
           <img src={logo} alt="movieium logo" id="logo-img" />
-          <span id="logo-title">Movieium</span>
+          <span id="logo-title">Butaca</span>
         </Link>
       </div>
       <div id="auth-links">

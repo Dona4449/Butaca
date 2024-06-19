@@ -19,7 +19,7 @@ const TicketSchema = new Schema({
     required: true,
   },
   order_id: {
-    type: String,
+    type: Number,
     required: true,
   },
 });
