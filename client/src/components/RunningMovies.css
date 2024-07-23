@@ -1,0 +1,61 @@
+.running-movies {
+    /* Styles for the entire section */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .section-title {
+    /* Styles for the genre title */
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .movies-container {
+    /* Styles for the movie container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .movie-card {
+    /* Styles for individual movie cards */
+    width: calc(20% - 10px); /* Adjust width as needed */
+    margin: 5px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .movie-img {
+    /* Styles for movie posters */
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Adjust image fitting as desired */
+  }
+  
+  .movie-title {
+    /* Styles for movie titles */
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .view-all-button {
+    /* Styles for the "View All" button */
+    background-color: red; /* Set background color to red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease; /* Add transition for hover effect */
+  }
+  
+  .view-all-button:hover {
+    /* Styles applied on button hover */
+    background-color: #d0021b; /* Change hover color to a darker red */
+  }

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div id="copyright">&#169; Copyright Movieium</div>
-      <Link to="/adminlogin">Admin Login</Link>
+      {/* <Link to="/adminlogin">Admin Login</Link> */}
     </footer>
   );
 };
